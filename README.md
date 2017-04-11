@@ -1,4 +1,6 @@
-# docker-curl
+# docker-curl 
+[![Docker Repository on Quay](https://quay.io/repository/whiteadam/curl/status "Docker Repository on Quay")](https://quay.io/repository/whiteadam/curl)
+
 Alpine Linux image with only curl and libssl/cacerts.
 
 ## Why?
@@ -23,6 +25,7 @@ $ docker run --rm whiteadam/curl -s http://checkip.amazonaws.com/
 ## Tags
 
 * `whiteadam/curl:latest` based on `alpine:3.4`
+* `quay.io/whiteadam/curl:latest` based on `alpine:3.4`
 
 ## License
 
